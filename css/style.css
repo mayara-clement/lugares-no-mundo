@@ -1,0 +1,181 @@
+body{
+  text-align:center;
+  font-family:open Sans,sans-serif;
+  background-color:#FFF;
+  color:#000;
+  margin: 0px 0px 30px 0px;
+  letter-spacing: 0.1em;
+  padding: 40px 0;
+  }
+
+  #carouselExampleSlidesOnly {
+  margin: auto;
+  width: 80%;
+  padding: 20px 0 0;
+  }
+
+  img.d-block {
+    object-fit: cover;
+  }
+
+h2{
+  font: normal normal 20px 'Josefin Sans', sans-serif;
+  color: #333333;
+  margin: 10px 0 8px 0;
+  padding: 20px 0 10px 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.titulo-verde{
+  color:rgba(77, 76, 76, 0.63);
+}
+
+.titulo-verde:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: rgba(77, 76, 76, 0.63);
+  margin: 5px auto;
+}
+
+.titulo-rosa{
+   color:rgba(77, 76, 76, 0.63);
+}
+
+.titulo-rosa:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: rgba(77, 76, 76, 0.63);
+  margin: 5px auto;
+}
+
+.titulo-amarelo{
+  color:rgba(77, 76, 76, 0.63);
+}
+.titulo-amarelo:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: rgba(77, 76, 76, 0.63);
+  margin: 5px auto;
+}
+
+section{
+  width: 60%;
+  margin: 0 auto;
+}
+
+section section{
+  width: 100%;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+
+h3{
+  font-size: 22px;
+  font-style: italic;
+  padding: 20px 0;
+ }
+
+p{
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: left;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+list-style-type:none;
+line-height: 2;
+padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+  color:#99ffff;
+  font-weight: 700;
+}
+
+.principal{
+background: rgb(231, 164, 198);
+height: 40px;
+max-width: 60%;
+margin: 50px auto 20px auto;
+}
+
+.principal a{
+  color: #fff; 
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .01em;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+
+  .principal ul li a:hover{
+    color: rgba(231, 228, 228, 0.938);
+  }
+
+  .principal li{
+    display:inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+  }
+
+.historias-cidades{
+  color: #fff; 
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .01em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.footer{
+  border-top: 1px solid #ccc;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.iconelinkedin{
+  margin: 22px auto;
+
+}
+
+.iconelinkedin path:hover {
+fill: #ccc;
+transition: all 0.2s ease-in-out;
+
+}
+
+.iconegithub path:hover{
+  fill: #ccc;
+  transition: all 0.2s ease-in-out;
+}
+
+.textofooter{
+  padding: 10px 0 0 20px;
+  border-top: 1px solid #ccc;
+  font-size: 15px;
+  color: #333;
+  
+}
