@@ -7,6 +7,3 @@ function validaFormulario(){
      alert("Por favor, preencha os campos nome, telefone e email!")
   } 
 }
-
-
-  
